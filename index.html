@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
@@ -30,6 +30,10 @@ img:hover, video:hover { transform: scale(1.05); }
 button.filter-btn { background:#1e90ff; color:white; border:none; padding:8px 15px; margin:3px; border-radius:4px; cursor:pointer; }
 button.filter-btn:hover { background:#0b70d4; }
 .hidden { display:none; }
+.link-buttons button { margin-right:5px; margin-top:5px; cursor:pointer; border:none; border-radius:4px; padding:8px 15px; color:white; }
+.link-buttons .website { background:#1e90ff; }
+.link-buttons .facebook { background:#3b5998; }
+.link-buttons a { text-decoration:none; }
 </style>
 </head>
 <body>
@@ -54,15 +58,21 @@ button.filter-btn:hover { background:#0b70d4; }
 <button class="filter-btn" onclick="filterArticles('creativeminds')">Creative Minds</button>
 </div>
 
-<!-- المقالات -->
+<!-- مقالة Viva Media Creative -->
 <article class="article" data-category="viva">
 <h2>Viva Media Creative</h2>
-<img src="https://via.placeholder.com/800x400?text=Viva+Media+Creative" alt="Viva Media Creative">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Viva Media Creative">
 <video controls>
 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
 متصفحك لا يدعم الفيديو
 </video>
-<p>شركة <strong>Viva Media Creative</strong> متخصصة في إنتاج المحتوى الرقمي والتسويق الإلكتروني. تقدم خدمات متنوعة مثل إنتاج الفيديوهات، كتابة الإعلانات، إدارة حسابات المؤثرين، وبناء الهوية الرقمية.</p>
+<p>شركة <strong>Viva Media Creative</strong> متخصصة في إنتاج المحتوى الرقمي والتسويق الإلكتروني.</p>
+
+<div class="link-buttons">
+  <a href="https://vivamediacreative.com" target="_blank"><button class="website">زيارة الموقع</button></a>
+  <a href="https://www.facebook.com/vivamediacreative" target="_blank"><button class="facebook">صفحة فيسبوك</button></a>
+</div>
+
 <h3>خدمات الشركة</h3>
 <ul>
 <li>إنتاج الفيديوهات الاحترافية لمواقع التواصل الاجتماعي.</li>
@@ -75,9 +85,10 @@ button.filter-btn:hover { background:#0b70d4; }
 <p>تساعد الشركات على الوصول لجمهور أوسع وتحسين حضورها الرقمي بطريقة احترافية.</p>
 </article>
 
+<!-- مقالة DigitalX -->
 <article class="article" data-category="digitalx">
 <h2>DigitalX</h2>
-<img src="https://via.placeholder.com/800x400?text=DigitalX" alt="DigitalX">
+<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="DigitalX">
 <video controls>
 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
 متصفحك لا يدعم الفيديو
@@ -91,9 +102,10 @@ button.filter-btn:hover { background:#0b70d4; }
 </ul>
 </article>
 
+<!-- مقالة Creative Minds -->
 <article class="article" data-category="creativeminds">
 <h2>Creative Minds</h2>
-<img src="https://via.placeholder.com/800x400?text=Creative+Minds" alt="Creative Minds">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Creative Minds">
 <p>شركة Creative Minds متخصصة في إنتاج محتوى إبداعي للشركات الصغيرة والمتوسطة مع التركيز على الفيديوهات القصيرة والتصميم.</p>
 <h3>خدمات الشركة</h3>
 <ul>
